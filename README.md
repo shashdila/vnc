@@ -13,7 +13,6 @@ VNC Troubleshooting
 
 A: Run the followin commands;
 - reboot
-- vncserver :1 -geometry 1366x768
 
 **Q: Cannot copy text?**
 
