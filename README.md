@@ -9,12 +9,12 @@ Install VNC with Firefox
 VNC Troubleshooting
 =========================================
 
-Q: VNC is stuck?
+**Q: VNC is stuck?**
 
 A: Run the followin commands;
 - reboot
 - vncserver :1 -geometry 1366x768
 
-Q: Cannot copy text?
+**Q: Cannot copy text?**
 
 A: Make sure that the property ClientCutText is set to true on your client. In real vnc viewer, open the properties and choose expert tab. And set it to true
