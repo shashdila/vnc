@@ -12,5 +12,5 @@ VNC Troubleshooting
 Q: VNC is stuck?
 
 A: Run the followin commands;
-    1. reboot
-    2. vncserver :1 -geometry 1366x768
+- reboot
+- vncserver :1 -geometry 1366x768
