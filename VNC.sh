@@ -26,7 +26,7 @@ mv remoteapp.sh /usr/sbin/remoteapp.sh
 
 echo -e '[Unit] \nDescription= Startup Applications for Remote Use \n  \n[Service] \nExecStart=/bin/bash /usr/sbin/remoteapp.sh \n \n[Install] \nWantedBy=multi-user.target' >> /etc/systemd/system/remoteapp.service
 
-echo -e '[Unit] \nDescription=TightVNC server \nAfter=syslog.target network.target \n \n[Service] \nType=forking \nUser=root \nPAMName=login \nPIDFile=/root/.vnc/%H:1.pid \nExecStartPre=-/usr/bin/vncserver -kill :1 > /dev/null 2>&1 \nExecStart=/usr/bin/vncserver :1 -geometry 1920x1080 \nExecStop=/usr/bin/vncserver -kill :1 \n \n[Install] \nWantedBy=multi-user.target' >> /etc/systemd/system/vncserver.service
+echo -e '[Unit] \nDescription=TightVNC server \nAfter=syslog.target network.target \n \n[Service] \nType=forking \nUser=root \nPAMName=login \nPIDFile=/root/.vnc/%H:1.pid \nExecStartPre=-/usr/bin/vncserver -kill :1 > /dev/null 2>&1 \nExecStart=/usr/bin/vncserver :1 -geometry 1366x768 \nExecStop=/usr/bin/vncserver -kill :1 \n \n[Install] \nWantedBy=multi-user.target' >> /etc/systemd/system/vncserver.service
 
 
 systemctl daemon-reload
