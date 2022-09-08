@@ -20,4 +20,4 @@ A: Make sure that the property ClientCutText is set to true on your client. In r
 
 **Q: Script not working?**
 
-A: Try creating the script file and copying the content. 
+A: Try creating the script file and copying the content of VNC.sh file and running the other commands from step 2.
