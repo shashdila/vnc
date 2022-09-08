@@ -17,3 +17,4 @@ A: Run the followin commands;
 **Q: Cannot copy text?**
 
 A: Make sure that the property ClientCutText is set to true on your client. In real vnc viewer, open the properties and choose expert tab. And set it to true
+
