@@ -21,3 +21,7 @@ A: Make sure that the property ClientCutText is set to true on your client. In r
 **Q: Script not working?**
 
 A: Try creating the script file and copying the content of VNC.sh file and running the other commands from step 2.
+
+**Q: Too many authentication failures when trying to connect to server?**
+
+A: Connect to VPS using SSH credentials and run ./reset.sh
